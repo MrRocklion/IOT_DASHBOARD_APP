@@ -32,7 +32,7 @@ class infoPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                backgroundImage: AssetImage("images/LOGO.png"),
+                backgroundImage: AssetImage("assets/images/LOGO.png"),
                 radius: 70,
               ),
               Expanded(
@@ -144,7 +144,7 @@ class infoPage extends StatelessWidget {
             ],
           ),
         ),
-        Image(image: AssetImage("images/logo2.png"),
+        Image(image: AssetImage("assets/images/logo2.png"),
           height: 200,
         ),
       ],
